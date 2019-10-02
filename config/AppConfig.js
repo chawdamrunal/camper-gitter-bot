@@ -118,8 +118,6 @@ const envConfigs = {
     appRedirectUrl: 'http://bot.freecodecamp.org/login/callback'
   }
 };
-
 envConfigs[config.githubId] = config.user;
 AppConfig.init();
-
 module.exports = AppConfig;
